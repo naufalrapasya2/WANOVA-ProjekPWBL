@@ -42,6 +42,11 @@ export async function POST(request: NextRequest) {
    const newArchive = {
     id: archives.length + 1,
     ...body,
+    dateCreated: new Date().toISOString().split('T')[0],
+    filePath: body.filePath || `/uploads/${Date.now()}.pdf`,
+    tags: body.tags || []
+  };
+
 
 
 
