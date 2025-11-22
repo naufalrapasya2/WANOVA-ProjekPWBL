@@ -47,6 +47,10 @@ export async function POST(request: NextRequest) {
     tags: body.tags || []
   };
 
+   archives.push(newArchive);
+
+  return NextResponse.json(newArchive, { status: 201 });
+}
 
 
 
