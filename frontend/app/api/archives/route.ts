@@ -18,6 +18,10 @@ let archives = [
     title: "Laporan Keuangan Q1 2025",
     description: "Laporan keuangan triwulan pertama tahun 2025.",
     category: "Keuangan",
+    dateCreated: "2025-04-10",
+    filePath: "/uploads/finance_q1.pdf",
+    tags: ["keuangan", "laporan", "q1"]
+  }
+];
 
 
-]
