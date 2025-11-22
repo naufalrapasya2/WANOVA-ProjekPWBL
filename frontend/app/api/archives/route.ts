@@ -39,5 +39,9 @@ export async function POST(request: NextRequest) {
     );
   }
 
+   const newArchive = {
+    id: archives.length + 1,
+    ...body,
+
 
 
