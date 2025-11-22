@@ -31,5 +31,13 @@ export async function GET() {
 export async function POST(request: NextRequest) {
   const body = await request.json();
 
+   // Validasi input dasar
+  if (!body.title || !body.description || !body.category) {
+    return NextResponse.json(
+      { error: "Title, description, and category are required" },
+      { status: 400 }
+    );
+  }
+
 
 
