@@ -24,4 +24,9 @@ let archives = [
   }
 ];
 
+export async function GET() {
+  return NextResponse.json(archives);
+}
+
+
 
