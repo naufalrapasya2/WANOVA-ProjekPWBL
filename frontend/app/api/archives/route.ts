@@ -16,6 +16,8 @@ let archives = [
   {
     id: 2,
     title: "Laporan Keuangan Q1 2025",
+    description: "Laporan keuangan triwulan pertama tahun 2025.",
+    category: "Keuangan",
 
 
 ]
