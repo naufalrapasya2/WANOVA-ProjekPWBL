@@ -10,4 +10,6 @@ let archives = [
     description: "Kontrak kerja antara PT ABC dan karyawan.",
     category: "Legal",
     dateCreated: "2025-01-15",
+    filePath: "/uploads/contract.pdf",
+    tags: ["kontrak", "legal", "karyawan"]
   }
