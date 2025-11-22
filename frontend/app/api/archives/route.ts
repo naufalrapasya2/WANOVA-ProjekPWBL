@@ -12,4 +12,10 @@ let archives = [
     dateCreated: "2025-01-15",
     filePath: "/uploads/contract.pdf",
     tags: ["kontrak", "legal", "karyawan"]
-  }
+  },
+  {
+    id: 2,
+    title: "Laporan Keuangan Q1 2025",
+
+
+]
